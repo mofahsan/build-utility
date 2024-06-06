@@ -1,7 +1,7 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 const path = require('path');
-
+console.log("test")
 const $RefParser = require("json-schema-ref-parser");
 const { execSync } = require("child_process");
 const Ajv = require("ajv");
